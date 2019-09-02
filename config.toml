@@ -1,0 +1,42 @@
+#
+# Configuracion basica del sitio WEB
+#
+title = "Code in my mind"                    # Titulo 
+baseURL = "https://joangilabert.github.io"    # URL 
+languageCode = "en-us"                        # Idioma
+theme = "gohugo-theme-ananke"                 # Nombre del Tema
+#themesDir = "../.."                          # Path del Tema.
+
+#
+# Configuracion adicional del sitio WEB
+#
+MetaDataFormat = "yaml"                 # Fomrato Cabeceras
+DefaultContentLanguage = "es"           # Idioma por defecto del contenido
+SectionPagesMenu = "main"               #
+Paginate = 3                            # Post por pagina en Main. this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""                    # Codigo para estadisticas Web
+enableRobotsTXT = true                  # Buscadores
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "Articulos sobre Ingeneria del Software."
+  facebook = ""
+  twitter = "https://twitter.com/JGilabertSoto"
+  instagram = "https://www.instagram.com/joangilabertsoto/"
+  youtube = ""
+  github = "https://github.com/joangilabert"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/joangilabert/"
+  mastodon = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  # background_color_class = "bg-black"
+  background_color_class = "bg-yellow"
+
+  featured_image = "/images/main-01.jpg"
+  recent_posts_number = 2
